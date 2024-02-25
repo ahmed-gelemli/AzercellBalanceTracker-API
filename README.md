@@ -28,15 +28,13 @@ This tool is not officially affiliated with, authorized, maintained, sponsored, 
 4. Copy and paste the content of `iOS_Scriptable_Widget.js` into the new script.
 5. **Customize the script** by changing the top lines of the script where constants for the phone number and password are defined:
 
-
+```
 // Constants for phone number and password
-
 const phoneNumber = "your_azercell_phone_number"; // Azercell phone number in format xx xxx xx xx (without +994)
-
 const password = "your_kabinetim_app_password"; // Password for Kabinetim app
+```
 
-
-	Replace `"your_azercell_phone_number"` with your actual Azercell phone number (formatted as xx xxx xx xx and without the country code +994) and `"your_kabinetim_app_password"` with the password you use for the Kabinetim app.
+Replace `"your_azercell_phone_number"` with your actual Azercell phone number (formatted as xx xxx xx xx and without the country code +994) and `"your_kabinetim_app_password"` with the password you use for the Kabinetim app.
 
 
 6. Rename the script to "Azercell Balance Checker" for easy identification.
